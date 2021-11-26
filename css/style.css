@@ -1,0 +1,36 @@
+header{
+    border: solid red;
+    padding: 20% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.content{
+    border: solid black;
+    padding: 5px;
+}
+ul{
+   list-style: none; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+a{
+    border-right: solid red;
+    padding-right: 5px;
+}
+.centre{
+ border: solid blue;
+ display: flex;
+ padding: 20% 2%;
+}
+aside>ul{
+    display: flex;
+    flex-direction: column;
+}
